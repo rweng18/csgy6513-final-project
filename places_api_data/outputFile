@@ -1,0 +1,224 @@
+{
+   "places": [
+      {
+         "formatted_address": "89 E 42nd St, New York, NY 10017, USA",
+         "location": {
+            "latitude": 40.752714,
+            "longitude": -73.97722689999999
+         },
+         "display_name": {
+            "text": "Grand Central Terminal",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "45 Rockefeller Plaza, New York, NY 10111, USA",
+         "location": {
+            "latitude": 40.7587402,
+            "longitude": -73.9786736
+         },
+         "display_name": {
+            "text": "Rockefeller Center",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "1000 5th Ave, New York, NY 10028, USA",
+         "location": {
+            "latitude": 40.7794366,
+            "longitude": -73.963244
+         },
+         "display_name": {
+            "text": "The Metropolitan Museum of Art",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "20 W 34th St., New York, NY 10001, USA",
+         "location": {
+            "latitude": 40.7484405,
+            "longitude": -73.98566439999999
+         },
+         "display_name": {
+            "text": "Empire State Building",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "11 W 53rd St, New York, NY 10019, USA",
+         "location": {
+            "latitude": 40.7614327,
+            "longitude": -73.97762159999999
+         },
+         "display_name": {
+            "text": "The Museum of Modern Art",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "200 Central Prk W, New York, NY 10024, USA",
+         "location": {
+            "latitude": 40.7813241,
+            "longitude": -73.9739882
+         },
+         "display_name": {
+            "text": "American Museum of Natural History",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "180 Greenwich St, New York, NY 10007, USA",
+         "location": {
+            "latitude": 40.7115776,
+            "longitude": -74.0133362
+         },
+         "display_name": {
+            "text": "9/11 Memorial & Museum",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "45 E 42nd St, New York, NY 10017, USA",
+         "location": {
+            "latitude": 40.7527746,
+            "longitude": -73.9787253
+         },
+         "display_name": {
+            "text": "SUMMIT One Vanderbilt",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "New York, NY 10004, USA",
+         "location": {
+            "latitude": 40.6892494,
+            "longitude": -74.04450039999999
+         },
+         "display_name": {
+            "text": "Statue of Liberty",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "Bowling Green, New York, NY 10004, USA",
+         "location": {
+            "latitude": 40.7055746,
+            "longitude": -74.0134499
+         },
+         "display_name": {
+            "text": "Charging Bull",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "1260 6th Ave, New York, NY 10020, USA",
+         "location": {
+            "latitude": 40.759975999999995,
+            "longitude": -73.9799772
+         },
+         "display_name": {
+            "text": "Radio City Music Hall",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "285 Fulton St, New York, NY 10007, USA",
+         "location": {
+            "latitude": 40.7127431,
+            "longitude": -74.0133795
+         },
+         "display_name": {
+            "text": "One World Trade Center",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "1071 5th Ave, New York, NY 10128, USA",
+         "location": {
+            "latitude": 40.7829796,
+            "longitude": -73.9589706
+         },
+         "display_name": {
+            "text": "Solomon R. Guggenheim Museum",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "99 Gansevoort St, New York, NY 10014, USA",
+         "location": {
+            "latitude": 40.7395877,
+            "longitude": -74.0088629
+         },
+         "display_name": {
+            "text": "Whitney Museum of American Art",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "Lincoln Center Plaza, New York, NY 10023, USA",
+         "location": {
+            "latitude": 40.7724641,
+            "longitude": -73.9834889
+         },
+         "display_name": {
+            "text": "Lincoln Center for the Performing Arts",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "175 5th Ave, New York, NY 10010, USA",
+         "location": {
+            "latitude": 40.741060499999996,
+            "longitude": -73.9896986
+         },
+         "display_name": {
+            "text": "Flatiron Building",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "Pier 86, W 46th St, New York, NY 10036, USA",
+         "location": {
+            "latitude": 40.764880100000006,
+            "longitude": -74.0008306
+         },
+         "display_name": {
+            "text": "Intrepid Museum",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "200 Eastern Pkwy, Brooklyn, NY 11238, USA",
+         "location": {
+            "latitude": 40.6712062,
+            "longitude": -73.9636306
+         },
+         "display_name": {
+            "text": "Brooklyn Museum",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "1681 Broadway, New York, NY 10019, USA",
+         "location": {
+            "latitude": 40.763248399999995,
+            "longitude": -73.98313870000001
+         },
+         "display_name": {
+            "text": "Broadway Theatre",
+            "language_code": "en"
+         }
+      },
+      {
+         "formatted_address": "57th Street and, 7th Ave, New York, NY 10019, USA",
+         "location": {
+            "latitude": 40.7651258,
+            "longitude": -73.97992359999999
+         },
+         "display_name": {
+            "text": "Carnegie Hall",
+            "language_code": "en"
+         }
+      }
+   ]
+}
