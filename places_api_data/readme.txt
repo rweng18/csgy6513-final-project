@@ -88,3 +88,7 @@ https://googleapis.dev/python/protobuf/latest/google/protobuf/json_format.html
 RESEARCH - not sure why the python client library would return a protobuf object instead of just the json, will look into this.
 
 returned object need to be serialized into JSON directly
+
+turns out google places API only allow up to 60  entries to be returned, and full data is not available without commercial agreements.
+We'll need to chunk out the queries for every subway station and change our scorecard to consider 60+ return results as the maximum score for that category.
+We can also chunk out each query for every type.
