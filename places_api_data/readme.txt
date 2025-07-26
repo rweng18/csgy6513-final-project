@@ -89,6 +89,15 @@ RESEARCH - not sure why the python client library would return a protobuf object
 
 returned object need to be serialized into JSON directly
 
-turns out google places API only allow up to 60  entries to be returned, and full data is not available without commercial agreements.
-We'll need to chunk out the queries for every subway station and change our scorecard to consider 60+ return results as the maximum score for that category.
+turns out google places API only allow up to 60  entries to be returned and requires pagination, and full data is not available without commercial agreements.
+The python client library does not provide next_page tokens for nearbySearch, which limits us to 20 entries (for one page)
+We'll need to chunk out the queries for every subway station and change our scorecard to consider 20+ return results as the maximum score for that category.
 We can also chunk out each query for every type.
+
+New process:
+
+In jupyter notebooks, Reduce station_by_line by unique stations only (we'll separate the routes out in the rejoin later)
+
+Search within a mile radius of every subway station from station_by_line.csv
+rank preference by distance
+
