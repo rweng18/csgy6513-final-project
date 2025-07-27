@@ -58,7 +58,7 @@ async def main():
     categories = ["art_gallery", "art_studio", "auditorium", "cultural_landmark", "historical_place", "monument", "museum", "performing_arts_theater", "sculpture"]
 
     #populate locations from .csv
-    stations_file_path = ".\station_by_line_noRoutes.csv"
+    stations_file_path = ".\station_by_line_LatLng.csv"
     with open(stations_file_path, 'r') as file:
         reader = csv.reader(file)
         next(reader) #skip header
@@ -71,12 +71,18 @@ async def main():
     for name, data in locations.items():
         stopName = name
         latLng = data["Coordinates"]
+        data["Nearby"] = {}
+
         for category in categories:
-            data = await proximity_search(latLng, category)
-            #serializedData = MessageToDict(data._pb, preserving_proto_field_name=True)  #searchNearBy response is wrapped as proto-plus object.  directly access the ._pb gives us the protobuf object to convert to dict
-            #file_path = ".\outputFile"
-            #with open(file_path, 'w') as outputFile:
-            #json.dump(serializedData, outputFile, indent = 3)
+            await asyncio.sleep(1) #
+            category_data = await proximity_search(latLng, category)
+            data["Nearby"][category] = MessageToDict(category_data._pb, preserving_proto_field_name=True)  #searchNearBy response is wrapped as proto-plus object.  directly access the ._pb gives us the protobuf object to convert to dict
+        
+        print(name + " complete")
+
+    file_path = ".\outputFile.json"
+    with open(file_path, 'w') as outputFile:
+        json.dump(locations, outputFile, indent = 3)
 
 if __name__ == "__main__":
     asyncio.run(main())        
