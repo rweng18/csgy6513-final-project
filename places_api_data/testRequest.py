@@ -49,8 +49,6 @@ async def proximity_search(latLng, category): #coordinates should be a tuple, ca
 
     return response
 
-
-#test print of the returned object (probably a json)
 async def main():
 
     #for every lat and long coordinate we have (each subway station), we'll make a query for every category
@@ -65,8 +63,7 @@ async def main():
 
         for row in reader:
             coordinates = (float(row[1]), float(row[2]))
-            locations[row[0]] = {"Coordinates": coordinates} #use the name of the subway station as the top-level
-
+            locations[f"{coordinates}"] = {"Station Name": row[0], "Coordinates": coordinates} #use the coordinates of the subway station AS A STRING for top level instead of subway station name
     #run a search in places API for every location we have against every category
     for name, data in locations.items():
         stopName = name
