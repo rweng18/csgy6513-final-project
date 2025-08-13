@@ -1,4 +1,4 @@
-Pipeline notes:
+Pipeline notes:  *NOTES ARE FROM A DUMP FROM WORKING SESSION - NOT ALL ACCURATE TO FINAL PROTOTYPE*
 
 1.  Set up Google Cloud Projects: provides API keys for HTTP requests to retrice places data
 2.  Write a program to pull and create data set from Google places API.
@@ -64,7 +64,7 @@ Pipeline likely will get a list of all json objects that are within the region c
 Turns out the center of the city is a hotly debated topic, but I decided on an approximate center:
 https://www.google.com/maps/place/40%C2%B041'34.8%22N+73%C2%B055'31.4%22W/@40.718377,-74.0388147,10.81z/data=!4m4!3m3!8m2!3d40.693!4d-73.9254?entry=ttu&g_ep=EgoyMDI1MDcyMC4wIKXMDSoASAFQAw%3D%3D
 
-We'll go 10 miles out from 40°41'34.8"N 73°55'31.4"W
+We'll go 1 miles out from 40°41'34.8"N 73°55'31.4"W
 
 Those coordinates need to be converted into decimal degrees instead.... https://www.fcc.gov/media/radio/dms-decimal
 
