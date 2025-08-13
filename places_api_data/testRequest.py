@@ -1,6 +1,5 @@
 import os, csv, json, asyncio
 from dotenv import load_dotenv, dotenv_values
-from collections import defaultdict
 from google.type import latlng_pb2 #used to calculate the center point of the circle search
 from google.maps import places_v1
 from google.protobuf.json_format import MessageToDict
