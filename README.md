@@ -10,7 +10,8 @@ The score describes the cultural destinations near a station, with an adjustment
 
 ## Project at a glance
 
-[Final Project Presentation (Google Slides)](https://docs.google.com/presentation/d/1_NBa0GOV1V1w40mjsm-qBcJYCDq2mDND1WWRon2kIk8/edit?slide=id.g36e363f97c2_0_27#slide=id.g36e363f97c2_0_27)
+*See [Final Project Report (PDF)](https://drive.google.com/file/d/1ZFTdb-JRVFBE81g0pEjKFEPNKFeS49jt/view?usp=sharing)
+*[Final Project Presentation (Google Slides)](https://docs.google.com/presentation/d/1_NBa0GOV1V1w40mjsm-qBcJYCDq2mDND1WWRon2kIk8/edit?slide=id.g36e363f97c2_0_27#slide=id.g36e363f97c2_0_27)
 
 | Component | Scope |
 | --- | --- |
